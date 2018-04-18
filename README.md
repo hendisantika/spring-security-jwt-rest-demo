@@ -14,7 +14,7 @@ To access the protected resource '/quotes', add to the Authentication header of 
 
 Spring Security is configured in `com.hendisantika.jwt.config` package:
 
-* WebSecurityConfig defines the policy to access resources, filters for login and authentication, a fake user in memory.
+* `WebSecurityConfig` defines the policy to access resources, filters for login and authentication, a fake user in memory.
 
 Authentication, Login and JWT are handled in `com.hendisantika.jwt.security` package:
 
