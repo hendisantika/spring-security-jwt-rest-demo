@@ -20,9 +20,9 @@ import java.util.Date;
 @RequestMapping("/")
 public class HelloController {
 
-    @GetMapping("/")
+    @GetMapping
     public String hello() {
-        return "Hello World!" + new Date();
+        return "Hello World! " + new Date();
     }
 
 }
